@@ -1,4 +1,4 @@
-# Azure OpenAI - Structured Outputs & Batch
+# Introduction: Azure OpenAI - Structured Outputs & Batch
 Recently, Microsoft Learn was updated to include [additional documentation on how to use Structured Outputs with Global Batch deployments](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/batch?tabs=structured-outputs%2Cpython-secure&pivots=programming-language-ai-studio#global-batch-support).
 
 This allows customers and partners to combining two relatively new Azure OpenAI features, to go from this batch input...
@@ -17,12 +17,12 @@ This allows customers and partners to combining two relatively new Azure OpenAI 
 | task-1    | The Shard             | 1,016          | London        | United Kingdom       |
 | task-2    | Burj Khalifa          | 2,717          | Dubai         | United Arab Emirates |
 
-## Structured Outputs
+## Background: Structured Outputs
 [**Structured Outputs**](https://learn.microsoft.com/azure/ai-services/openai/how-to/structured-outputs) ensures model-generated outputs conform exactly to developer-provided JSON Schemas, solving challenges around generating structured data from unstructured inputs. For an example, check out my [Structured Outputs demo](https://github.com/guygregory/Art-JSON).
 
 ![image](https://github.com/user-attachments/assets/9fd0d6fa-fd58-4745-b743-55177e4d0c74)
 
-## Batch API
+## Background: Batch API
 [**Global Batch**](https://learn.microsoft.com/azure/ai-services/openai/how-to/batch) enables efficient large-scale processing of asynchronous requests with a separate quota, 24-hour target turnaround, and 50% lower cost than standard, by sending multiple requests in a single JSONL batch file.
 
 # Using Structured Outputs with Global Batch deployments in Azure OpenAI Service
