@@ -23,7 +23,7 @@ This allows customers and partners to combining two relatively new Azure OpenAI 
 ![image](https://github.com/user-attachments/assets/9fd0d6fa-fd58-4745-b743-55177e4d0c74)
 
 ## Background: Batch API
-[**Global Batch**](https://learn.microsoft.com/azure/ai-services/openai/how-to/batch) enables efficient large-scale processing of asynchronous requests with a separate quota, 24-hour target turnaround, and 50% lower cost than standard, by sending multiple requests in a single JSONL batch file.
+[**Global Batch**](https://learn.microsoft.com/azure/ai-services/openai/how-to/batch) is a new deployment type which allows efficient, large-scale processing of asynchronous requests with a separate quota, 24-hour target turnaround, and 50% lower cost than standard, by sending multiple requests in a single JSONL batch file.
 
 # Using Structured Outputs with Global Batch deployments in Azure OpenAI Service
 
