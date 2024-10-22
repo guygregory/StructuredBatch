@@ -27,7 +27,7 @@ This allows customers and partners to combining two relatively new Azure OpenAI 
 
 # Using Structured Outputs with Global Batch deployments in Azure OpenAI Service
 
-If you want to use both of these features at the same time, firstly, deploy gpt-4o in a [supported region](https://learn.microsoft.com/en-gb/azure/ai-services/openai/how-to/batch?tabs=standard-input%2Cpython-secure&pivots=programming-language-python#region-and-model-support) using the "Global Batch" deployment type. Be sure to use version 2024-08-06 or newer for Structured Output support. At time of writing (Oct '24), only gpt-4o version: 2024-08-06 supports structured outputs.
+If you want to use both of these features at the same time, firstly, deploy gpt-4o in a [supported region](https://learn.microsoft.com/en-gb/azure/ai-services/openai/how-to/batch?tabs=standard-input%2Cpython-secure&pivots=programming-language-python#region-and-model-support) using the "Global Batch" deployment type. Be sure to use version 2024-08-06 or newer for Structured Output support. At time of writing (Oct '24), only gpt-4o version: 2024-08-06 supports structured outputs. gpt-4o mini support for Structured Outputs is coming soon.
 
 In this example, I've deployed gpt-4o 2024-08-06 into Sweden Central, and have named it 'gpt-4o-batch'.
 
