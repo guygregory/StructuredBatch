@@ -1,5 +1,7 @@
 # Introduction: Azure OpenAI - Structured Outputs & Batch API
-Recently, Microsoft Learn was updated to include [additional documentation on how to use Structured Outputs with Global Batch deployments](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/batch?tabs=structured-outputs%2Cpython-secure&pivots=programming-language-ai-studio#global-batch-support).
+This week (23rd Oct '24), Azure OpenAI (Global Batch reached General Availability.](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/announcing-azure-openai-global-batch-general-availability-at/ba-p/4276921).
+
+Just last week, Microsoft Learn was updated to include [additional documentation on how to use Structured Outputs with Global Batch deployments](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/batch?tabs=structured-outputs%2Cpython-secure&pivots=programming-language-ai-studio#global-batch-support).
 
 This allows customers and partners to combine two relatively new Azure OpenAI features, to go from something like this...
 
