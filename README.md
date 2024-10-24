@@ -96,7 +96,7 @@ Here's what one of these requests looks like if we reformat for easier readabili
 ```
 
 # Python Notebook Example - Commentary
-[This Python notebook](https://github.com/guygregory/StructuredBatch/blob/main/batch%20-%20StructuredOutputs.ipynb) walks through the steps required to upload a batch file, submit it for processing, track its progress, and retrieve structured outputs using Azure OpenAI's Batch API. It's based on the sample in the [Microsoft Learn documentation](https://learn.microsoft.com/en-gb/azure/ai-services/openai/how-to/batch?tabs=standard-input%2Cpython-key&pivots=programming-language-python).
+[This Python notebook](https://github.com/guygregory/StructuredBatch/blob/main/batch%20-%20StructuredOutputs.ipynb) walks through the steps required to upload an [example batch file](https://github.com/guygregory/StructuredBatch/blob/main/batch%20-%20StructuredOutputs.jsonl), submit it for processing, track its progress, and retrieve structured outputs using Azure OpenAI's Batch API. It's based on the sample in the [Microsoft Learn documentation](https://learn.microsoft.com/en-gb/azure/ai-services/openai/how-to/batch?tabs=standard-input%2Cpython-key&pivots=programming-language-python).
 
 ## Step 1: Uploading the Batch File
 In this section, the notebook sets up the Azure OpenAI client, using environment variables for the API endpoint and key. It then uploads a file containing batch requests, specifying its purpose as batch.
