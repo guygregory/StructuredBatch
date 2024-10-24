@@ -9,7 +9,7 @@ This allows customers and partners to combining two relatively new Azure OpenAI 
 | task-1    | gpt-4o-batch  | Provide info about the Shard in London       | BuildingName, HeightInFeet, City, Country |
 | task-2    | gpt-4o-batch  | Provide info about the Burj Khalifa          | BuildingName, HeightInFeet, City, Country |
 
-...to something like this (reformatted as a table for easy viewing):
+...to something like this (reformatted as a table for human-friendly viewing):
 
 | Custom ID | BuildingName          | HeightinFeet   | City          | Country              |
 |-----------|-----------------------|----------------|---------------|----------------------|
